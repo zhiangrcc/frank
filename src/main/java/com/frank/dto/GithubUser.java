@@ -1,5 +1,8 @@
 package com.frank.dto;
 
+/**
+ * 登录成功后可以查看的信息较多，使用本类来接受特定的几个参数
+ */
 public class GithubUser {
     private String name;
     private Long id;

@@ -1,5 +1,12 @@
 package com.frank.dto;
 
+/**
+ * AccessTokenDTO 数据传输对象(DTO是展示层与服务层之间传输)
+ * Ps:VO类是 视图传输对象 用于展示层、
+ *
+ * 作用是:前端登录操作成功后，通往redirect_url地址时，
+ * 将code，state，还有配置的k：v信息，封装起来
+ */
 public class AccessTokenDTO {
     private String client_id;
     private String client_secret;
